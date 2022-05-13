@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>meme slider</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./normalize.css">
 </head>
+
 <body>
-  <div class="container"></div>
+  <div class="container">
+    <input type="radio" name="dot" id="meme1" checked>
+    <input type="radio" name="dot" id="meme2">
+    <input type="radio" name="dot" id="meme3">
+    <input type="radio" name="dot" id="meme4">
+    <div class="slider">
+      <div class="slider__items">
+        <div class="slider__item meme1">
+          <img src="./img/1.jpg" alt="meme1">
+        </div>
+        <div class="slider__item meme2">
+          <img src="./img/2.jpg" alt="meme2">
+        </div>
+        <div class="slider__item meme3">
+          <img src="./img/3.jpg" alt="meme3">
+        </div>
+        <div class="slider__item meme4">
+          <img src="./img/4.jpg" alt="meme4">
+        </div>
+      </div>
+      <div class="slider__text">
+        <div class="slider__text-container">
+          <p class="text__item">hehe mem</p>
+          <p class="text__item">vau kakoi smeshnoi mem (rjumba)</p>
+          <p class="text__item">hehe mem kuda bolee smeshnoi (net)</p>
+          <p class="text__item">hehe mem smeshnoi</p>
+        </div>
+      </div>
+      <div class="slider__nav">
+        <label for="meme1" class="slider__nav-item btn btn1"></label>
+        <label for="meme2" class="slider__nav-item btn btn2"></label>
+        <label for="meme3" class="slider__nav-item btn btn3"></label>
+        <label for="meme4" class="slider__nav-item btn btn4"></label>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
