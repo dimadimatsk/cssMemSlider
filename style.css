@@ -85,7 +85,7 @@ input {
   display: block;
   width: 3.25rem;
   height: 3.25rem;
-  padding: .875rem;
+  padding: 0.875rem;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -148,22 +148,22 @@ input {
   transform: translateX(-75%);
 }
 
-#meme1:checked ~ .slider__nav > .btn > .circle1:hover {
+#meme1:checked ~ .slider__nav > .btn:hover > .circle1 {
   background-color: var(--primary-color);
   border: 3px var(--text-color) solid;
 }
 
-#meme2:checked ~ .slider__nav > .btn > .circle2:hover {
+#meme2:checked ~ .slider__nav > .btn:hover > .circle2 {
   background-color: var(--primary-color);
   border: 3px var(--text-color) solid;
 }
 
-#meme3:checked ~ .slider__nav > .btn > .circle3:hover {
+#meme3:checked ~ .slider__nav > .btn:hover > .circle3 {
   background-color: var(--primary-color);
   border: 3px var(--text-color) solid;
 }
 
-#meme4:checked ~ .slider__nav > .btn > .circle4:hover {
+#meme4:checked ~ .slider__nav > .btn:hover > .circle4 {
   background-color: var(--primary-color);
   border: 3px var(--text-color) solid;
 }
