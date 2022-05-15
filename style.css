@@ -27,6 +27,7 @@ body {
     "text nav";
   max-width: 670px;
   padding: 0 1rem;
+  grid-gap: 2rem;
 }
 
 input {
@@ -39,7 +40,6 @@ input {
   height: auto;
   grid-area: pic;
   margin-top: 2rem;
-  margin-bottom: 2rem;
   border-radius: 10px;
 }
 
@@ -181,6 +181,7 @@ input {
       "pic"
       "nav"
       "text";
+    row-gap: 1rem;
   }
 
   .slider__nav {
