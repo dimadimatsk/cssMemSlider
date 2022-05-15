@@ -4,10 +4,13 @@
   --secondary-color: #757edf;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-size: 62.5%;
   box-sizing: border-box;
 }
 
@@ -167,7 +170,20 @@ input {
   background-color: var(--primary-color);
   border: 3px var(--text-color) solid;
 }
-/* 
-@media (max-width: 767px) {
 
-} */
+@media (max-width: 767px) {
+  .slider__text-container {
+    font-size: 2rem;
+  }
+
+  .container {
+    grid-template-areas:
+      "pic"
+      "nav"
+      "text";
+  }
+
+  .slider__nav {
+    margin: 0 auto;
+  }
+}
