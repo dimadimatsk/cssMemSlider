@@ -27,7 +27,7 @@ body {
     "text nav";
   max-width: 670px;
   padding: 0 1rem;
-  grid-gap: 2rem;
+  row-gap: 2rem;
 }
 
 input {
